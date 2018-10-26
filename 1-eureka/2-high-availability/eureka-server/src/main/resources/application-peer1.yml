@@ -9,3 +9,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer2:8763/eureka/,http://peer3:8764/eureka/
+    register-with-eureka: false
+    fetch-registry: false
